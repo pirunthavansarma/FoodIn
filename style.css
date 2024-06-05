@@ -1,0 +1,124 @@
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  color: #43121d !important;
+}
+
+.login-btn {
+  background-color: #43121d !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.bg-image {
+  background-image: url(./bg/bg-1.jpg);
+  height: 100vh;
+  background-position: -85px;
+}
+
+.btnbrown {
+  background-color: #43121d !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btnwhite {
+  background-color: #fff !important;
+  color: rgb(8, 8, 8) !important;
+  border-color: #43121d;
+}
+
+#home p,
+h1 {
+  justify-content: center;
+
+}
+
+.barnum {
+  background: #43121d;
+  color: white;
+  padding: 60px 0;
+}
+
+.barnum h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about,
+.section5 {
+  padding: 60px 0;
+}
+
+.about h2,
+.section5 h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section6 {
+  background: #999;
+  color: #43121d;
+  padding-left: 40px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(./bg/bg-2.jpg);
+
+
+  height: 40vh;
+
+  background-size: 1900px 500px;
+
+  background-position: center;
+
+}
+
+/* 7 */
+
+
+.section7 {
+  padding: 60px 0;
+}
+
+.section7 h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.section8 {
+  background: #f2f2f2;
+  padding: 60px 0;
+}
+
+.section8 h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .list-inline {
+  margin-bottom: 10px;
+}
+
+footer .list-inline-item {
+  margin-right: 10px;
+}
