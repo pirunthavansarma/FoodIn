@@ -138,4 +138,14 @@ footer .list-inline-item {
 
 .old{
   text-decoration: line-through;
+
+}
+
+.check{
+  list-style: none;
+  color: #999;
+}
+.card-text{
+  color: var(--primary-color);
+
 }
