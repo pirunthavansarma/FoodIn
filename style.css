@@ -1,3 +1,16 @@
+*{
+  --primary-color: #A82C4B;
+ --secondary-color: #43121d;
+   --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Robot', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+
+}
+
 .navbar-brand img {
   height: 50px;
 }
@@ -101,7 +114,7 @@ h1 {
 }
 
 footer {
-  background: #343a40;
+  background: #43121d;
   color: #fff;
   padding: 20px 0;
 }
@@ -121,4 +134,8 @@ footer .list-inline {
 
 footer .list-inline-item {
   margin-right: 10px;
+}
+
+.old{
+  text-decoration: line-through;
 }
