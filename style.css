@@ -16,11 +16,11 @@
 }
 
 .nav-link {
-  color: #43121d !important;
+  color: var(--primary-color) !important;
 }
 
 .login-btn {
-  background-color: #43121d !important;
+  background-color: var(--primary-color) !important;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -31,14 +31,14 @@
 }
 
 .btnbrown {
-  background-color: #43121d !important;
+  background-color:var(--primary-color) !important;
   color: rgb(255, 255, 255) !important;
 }
 
 .btnwhite {
-  background-color: #fff !important;
-  color: rgb(8, 8, 8) !important;
-  border-color: #43121d;
+  background-color: var(--white-color) !important;
+  color:var(--black-color)!important;
+  border-color: var(--primary-color);
 }
 
 #home p,
@@ -48,7 +48,7 @@ h1 {
 }
 
 .barnum {
-  background: #43121d;
+  background: var(--primary-color);
   color: white;
   padding: 60px 0;
 }
@@ -71,8 +71,8 @@ h1 {
 }
 
 .section6 {
-  background: #999;
-  color: #43121d;
+  background: var(--text-gray);
+  color: var(--primary-color);
   padding-left: 40px;
   text-align: center;
   justify-content: center;
@@ -114,13 +114,13 @@ h1 {
 }
 
 footer {
-  background: #43121d;
-  color: #fff;
+  background: var(--primary-color);
+  color: var(--white-color);
   padding: 20px 0;
 }
 
 footer a {
-  color: #fff;
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -143,9 +143,14 @@ footer .list-inline-item {
 
 .check{
   list-style: none;
-  color: #999;
+  color: var(--text-gray);
 }
 .card-text{
   color: var(--primary-color);
 
+}
+
+.miss{
+  background: url(./bg/bg-3.jpg);
+  
 }
